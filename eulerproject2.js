@@ -1,4 +1,7 @@
+//logs the sum of all even fibonacci numbers whose values are lower than 4000000
+
 fib = function(n) {
+//recursive fibonacci function - returns nth fibonacci number (starting w/ 1 and 2)
 	if (n === 0) {
 		return 1; 
 	}else if (n === 1) {
